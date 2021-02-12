@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stateless CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADING-->
+    <h1>Curriculum Vitae</h1>
+
+    <!-- START BUTTON-->
+    <div id="btn-start">Trykk her for å starte din CV.</div>
+    <!-- FORM PERSONAL DETAILS-->
+    <div>
+      <form id="personal-form">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <label for="adress">Address:</label><br />
+        <input type="text" id="address" name="address" /><br />
+      </form>
+    </div>
+    <!-- FORM PERSONAL DETAILS GHOST-->
+    <div>
+      <form id="personal-form-ghost">
+        <label for="fname-ghost" id="fname-ghost-label">First name:</label
+        ><br />
+        <input type="text" id="fname-ghost" name="fname-ghost" />
+        <br />
+        <label for="lname-ghost" id="lname-ghost-label">Last name:</label><br />
+        <input type="text" id="lname-ghost" name="lname-ghost" /><br />
+        <label for="adress-ghost" id="address-ghost-label">Address:</label
+        ><br />
+        <input type="text" id="address-ghost" name="address" /><br />
+      </form>
+    </div>
+    <!-- FORM -->
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

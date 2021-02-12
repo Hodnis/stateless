@@ -1,0 +1,26 @@
+#btn-start {
+  background-color: #008cba;
+  color: white;
+  display: inline-block;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+#personal-form {
+  display: none;
+  float: left;
+}
+
+#fname-ghost,
+#fname-ghost-label,
+#lname-ghost-label,
+#lname-ghost,
+#address-ghost,
+#address-ghost-label {
+  display: none;
+  float: right;
+  pointer-events: none;
+}
